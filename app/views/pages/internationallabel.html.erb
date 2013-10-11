@@ -1,17 +1,146 @@
-<h1>Create Your International Label!</h1>
-
-<div class="input-group">
-  <span class="input-group-addon">@</span>
-  <input type="text" class="form-control" placeholder="Username">
+<div style="margin-bottom: 3em">
+	<h2>Create an International USPS Shipping Label</h2>
 </div>
 
-<div class="input-group">
-  <input type="text" class="form-control">
-  <span class="input-group-addon">.00</span>
-</div>
+<div class="row">
+<div class="col-lg-4">
+	<div style="margin-bottom: 1em">
+		<h4>from address:</h4>
+	</div>
 
-<div class="input-group">
-  <span class="input-group-addon">$</span>
-  <input type="text" class="form-control">
-  <span class="input-group-addon">.00</span>
-</div>
+	<div class="form-group" style="margin-bottom: 3em">
+		  <div class="input-group">
+		  	<span class="input-group-addon" style="text-align:left; width:100px">Name</span>
+		  	<input type="text" class="form-control">
+			</div>
+			<div class="input-group">
+		  	<span class="input-group-addon" style="text-align:left; width:100px">Company</span>
+		  	<input type="text" class="form-control">
+			</div>
+			<div class="input-group">
+		  	<span class="input-group-addon" style="text-align:left; width:100px">Street 1</span>
+		  	<input type="text" class="form-control">
+			</div>
+			<div class="input-group">
+		  	<span class="input-group-addon" style="text-align:left; width:100px">Street 2</span>
+		  	<input type="text" class="form-control">
+			</div>
+			<div class="input-group">
+		  	<span class="input-group-addon" style="text-align:left; width:100px">City</span>
+		  	<input type="text" class="form-control">
+			</div>
+			<div class="input-group">
+		  	<span class="input-group-addon" style="text-align:left; width:100px">State</span>
+		  	<input type="text" class="form-control">
+			</div>
+			<div class="input-group">
+		  	<span class="input-group-addon" style="text-align:left; width:100px">Zip</span>
+		  	<input type="text" class="form-control">
+			</div>
+	</div>
+
+	<div style="margin-bottom: 1em">
+	<h4>customs info:</h4>
+	</div>
+
+	<div class="form-group" style="margin-bottom: 3em">
+		  <div class="input-group">
+		  	<span class="input-group-addon" style="text-align:left; width:100px">description</span>
+		  	<input type="text" class="form-control" placeholder="ex: used cellphone">
+			</div>
+			<div class="input-group">
+		  	<span class="input-group-addon" style="text-align:left; width:100px">quantity</span>
+		  	<input type="number" class="form-control">
+			</div>
+			<div class="input-group">
+		  	<span class="input-group-addon" style="text-align:left; width:100px">value</span>
+		  	<input type="number" class="form-control">
+			</div>
+	</div>
+</div> <!-- /.class="col-lg-4" -->
+
+<div class="col-lg-4">
+	<div style="margin-bottom: 1em">
+		<h4>to address:</h4>
+	</div>
+
+	<div class="form-group" style="margin-bottom: 3em">
+		  <div class="input-group">
+		  	<span class="input-group-addon" style="text-align:left; width:100px">Name</span>
+		  	<input type="text" class="form-control">
+			</div>
+			<div class="input-group">
+		  	<span class="input-group-addon" style="text-align:left; width:100px">Company</span>
+		  	<input type="text" class="form-control">
+			</div>
+			<div class="input-group">
+		  	<span class="input-group-addon" style="text-align:left; width:100px">Street 1</span>
+		  	<input type="text" class="form-control">
+			</div>
+			<div class="input-group">
+		  	<span class="input-group-addon" style="text-align:left; width:100px">Street 2</span>
+		  	<input type="text" class="form-control">
+			</div>
+			<div class="input-group">
+		  	<span class="input-group-addon" style="text-align:left; width:100px">City</span>
+		  	<input type="text" class="form-control">
+			</div>
+			<div class="input-group">
+		  	<span class="input-group-addon" style="text-align:left; width:100px">State</span>
+		  	<input type="text" class="form-control">
+			</div>
+			<div class="input-group">
+		  	<span class="input-group-addon" style="text-align:left; width:100px">Zip</span>
+		  	<input type="text" class="form-control">
+			</div>
+	</div>
+</div> <!-- /.class="col-lg-4" -->
+
+<div class="col-lg-4">
+
+	<div>
+		<h4>package deets:</h4>
+	</div>
+	<div class="form-group" style="margin-bottom: 1em" >
+		  <div class="input-group" style="margin-bottom: 5px">
+		  	<span class="input-group-addon" style="text-align:left; width:100px">Weight</span>
+		  	<input type="number" class="form-control" placeholder="ounces">
+	 		</div>
+	 		<div class="input-group">
+	 		<span class="input-group-addon" style="text-align:left; width:100px">Package</span>
+		 		<select class="form-control">
+				  <option>Parcel</option>
+				  <option>FlatRateEnvelope</option>
+				  <option>FlatRatePaddedEnvelope</option>
+				  <option>SmallFlatRateBox</option>
+				  <option>MediumFlatRateBox</option>
+				  <option>LargeFlatRateBox</option>
+				</select>
+			</div>
+	</div>
+
+	<div>
+		<h4>service:</h4>
+	</div>
+	<div class="form-group" style="margin-bottom: 1em" >
+		<div class="btn-group">
+		  <button type="button" class="btn btn-danger">Priority Mail</button>
+		  <button type="button" class="btn btn-primary">Express Mail</button>
+		</div>
+	</div>
+
+	<div>
+		<h4>insure that shit:</h4>
+	</div>
+	<div class="form-group" style="margin-bottom: 1em" >
+		  <div class="input-group">
+		  	<span class="input-group-addon" style="text-align:left; width:100px">Insurance</span>
+		  	<input type="number" class="form-control" placeholder="dolla dolla bills, yall">
+	 		</div>
+	</div>
+
+</div> <!-- /.class="col-lg-4" -->
+</div> <!-- /.row -->
+
+
+		  <button type="submit" class="btn btn-primary" style="margin-top: 1em">Make That Shit!</button>
