@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Pinteresting::Application.load_tasks
+NewayaShippingTool::Application.load_tasks
