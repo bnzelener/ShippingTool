@@ -1,6 +1,8 @@
 Pinteresting::Application.routes.draw do
   root "pages#home"
-  get "about" => "pages#about" #creates about_path
+  get "domesticlabel" => "pages#domesticlabel" #creates domesticlabel_path
+  get "internationallabel" => "pages#internationallabel" #creates domesticlabel_path
+
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

@@ -1,9 +1,11 @@
-require 'rubygems'
-require 'easypost'
+resources :wolfdog do
+  collection do
+    get:
+
 EasyPost.api_key = 'qu0cNyMsUCsfeDkuzAXqKg'
 
 to_address = EasyPost::Address.create(
-  :company => 'Newaya Recycling',
+  :company => 'WebAppDemoWorksHURRRRAH',
   :street1 => '320 East Vine Dr.',
   :street2 => 'STE 216',
   :city => 'Fort Collins',
