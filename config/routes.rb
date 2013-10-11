@@ -1,4 +1,4 @@
-Pinteresting::Application.routes.draw do
+NewayaShippingTool::Application.routes.draw do
   root "pages#home"
   get "domesticlabel" => "pages#domesticlabel" #creates domesticlabel_path
   get "internationallabel" => "pages#internationallabel" #creates domesticlabel_path
